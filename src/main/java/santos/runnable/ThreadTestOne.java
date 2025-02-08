@@ -6,13 +6,14 @@ public class ThreadTestOne {
 
             try {
                 Thread.sleep(10000);
-                System.out.println("hello from rhread 1");
+                System.out.println("hello from Thread 1");
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
         });
         t.start();
-        t.join();
+        t.join(5000);
+        //t.join();
         System.out.println("programs-end");
     }
 }
