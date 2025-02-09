@@ -1,6 +1,7 @@
 package santos.executorService;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
@@ -32,6 +33,7 @@ public class FixedThreadPoolExample {
 
         // Print the size of the list
         System.out.println("List size: " + list.size());
+        System.out.println(Arrays.toString(args));
     }
 }
 
