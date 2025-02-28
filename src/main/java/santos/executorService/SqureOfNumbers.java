@@ -76,5 +76,14 @@ public class SqureOfNumbers {
         list.forEach((item)-> System.out.println(item));
         list.forEach((item)-> System.out.println(item));
         list.forEach((item)-> System.out.println(item));
+        list.forEach((item)-> System.out.println(item));
+        list.forEach((item)-> System.out.println(item));
+        list.forEach((item)-> System.out.println(item));
+        list.forEach((item)-> System.out.println(item));
+        System.out.println("funcSquareNumbers() execution ended (tasks still running in background).");
+        list.forEach((item)-> System.out.println(item));
+        list.forEach((item)-> System.out.println(item));
+        list.forEach((item)-> System.out.println(item));
+        list.forEach((item)-> System.out.println(item));
     }
 }
