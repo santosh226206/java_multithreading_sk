@@ -75,5 +75,13 @@ public class SqureOfNumbers {
         list.forEach((item)-> System.out.println(item));
         list.forEach((item)-> System.out.println(item));
         list.forEach((item)-> System.out.println(item));
+        list.forEach((item)-> System.out.println(item));
+        list.forEach((item)-> System.out.println(item));
+        list.forEach((item)-> System.out.println(item));
+        list.forEach((item)-> System.out.println(item));
+        list.forEach((item)-> System.out.println(item));
+        list.forEach((item)-> System.out.println(item));
+        list.forEach((item)-> System.out.println(item));
+        list.forEach((item)-> System.out.println(item));
     }
 }
