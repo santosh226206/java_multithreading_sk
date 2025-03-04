@@ -68,20 +68,5 @@ public class SqureOfNumbers {
         // Initiates an orderly shutdown, tasks will complete in the background
         executor.shutdown();
         list.forEach((item)-> System.out.println(item));
-        list.forEach((item)-> System.out.println(item));
-        list.forEach((item)-> System.out.println(item));
-        list.forEach((item)-> System.out.println(item));
-        list.forEach((item)-> System.out.println(item));
-        list.forEach((item)-> System.out.println(item));
-        list.forEach((item)-> System.out.println(item));
-        list.forEach((item)-> System.out.println(item));
-        list.forEach((item)-> System.out.println(item));
-        list.forEach((item)-> System.out.println(item));
-        list.forEach((item)-> System.out.println(item));
-        list.forEach((item)-> System.out.println(item));
-        list.forEach((item)-> System.out.println(item));
-        list.forEach((item)-> System.out.println(item));
-        list.forEach((item)-> System.out.println(item));
-        list.forEach((item)-> System.out.println(item));
     }
 }
