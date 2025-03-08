@@ -51,16 +51,16 @@ public class SqureOfNumbers {
     }
 
     public void funcSquareNumbers() {
-        ExecutorService executor = Executors.newFixedThreadPool(10);
+        ExecutorService executor = Executors.newFixedThreadPool(2);
 
         // Create an ArrayList to store the elements
         ArrayList<Integer> list = new ArrayList<>();
-        for (int i = 0; i < 2000; i++) {
+        for (int i = 0; i < 20; i++) {
             list.add(i);
         }
 
         // Submit tasks to the executor
-        for (int i = 0; i < 2000; i++) {
+        for (int i = 0; i < 20; i++) {
             final int index = i;
             executor.submit(() -> squaring(list, index));
         }
