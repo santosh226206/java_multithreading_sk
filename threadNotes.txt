@@ -1,0 +1,6 @@
+Topics-> 
+		1.1 -> Runnable and Thread
+		1.2 -> thread methods start, join, interrupt, sleep, setpriority, etc...
+		1.3 -> Synchronised keyword
+		1.4 -> Locks instrensic (Synchronised keyword) and explicit (Reenternat locks)
+		1.5 -> Comparison 
