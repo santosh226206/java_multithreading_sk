@@ -72,9 +72,16 @@ public class SharedResource {
         while (stk.size() == CAPACITY) {
             wait(); // wait if full
         }
-        stk.push(ele);
-        System.out.println("Produced: " + ele);
-        notifyAll(); // wake up consumers
+//        stk.push(ele);
+//        System.out.println("Produced: " + ele);
+//        notifyAll(); // wake up consumers
+        while(stk.size()<CAPACITY){
+            stk.push(ele);
+            System.out.println("Produce ------"+ ele);
+            if(stk.size()==CAPACITY){
+                notifyAll();
+            }
+        }
     }
 
     // Consumer consumes ONE item at a time
