@@ -70,6 +70,7 @@ public class SharedResource {
     // Producer produces ONE item at a time
     public synchronized void produce(int ele) throws InterruptedException {
         while (stk.size() == CAPACITY) {
+            System.out.println("indide wait producer");
             wait(); // wait if full
         }
 //        stk.push(ele);
@@ -87,6 +88,7 @@ public class SharedResource {
     // Consumer consumes ONE item at a time
     public synchronized int consume() throws InterruptedException {
         while (stk.isEmpty()) {
+            System.out.println("inside wait consumer");
             wait(); // wait if empty
         }
         int val = stk.pop();
