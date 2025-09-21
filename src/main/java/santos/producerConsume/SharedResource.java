@@ -80,7 +80,7 @@ public class SharedResource {
             stk.push(ele);
             System.out.println("Produce ------"+ ele);
             if(stk.size()==CAPACITY){
-                notifyAll();
+                //notifyAll();
             }
         }
     }
@@ -93,7 +93,7 @@ public class SharedResource {
         }
         int val = stk.pop();
         System.out.println("Consumed: " + val);
-        notifyAll(); // wake up producers
+        //notifyAll(); // wake up producers
         return val;
     }
 }

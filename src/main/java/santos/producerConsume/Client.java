@@ -30,8 +30,8 @@ public class Client {
 
         Thread producer = new Producer(sharedResource);
         Thread consumer = new Consumer(sharedResource);
-
-        producer.start();
         consumer.start();
+        producer.start();
+
     }
 }
