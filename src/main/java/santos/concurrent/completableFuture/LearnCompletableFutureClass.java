@@ -24,6 +24,6 @@ public class LearnCompletableFutureClass {
         .thenAccept(result -> {
             System.out.println(result);
         });
-        System.out.println("main ended");
+        System.out.println("main ended");4
     }
 }
