@@ -13,5 +13,6 @@ public class Client {
         });
         thread1.start();
         thread2.start();
+        System.out.printf("main ended");
     }
 }
