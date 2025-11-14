@@ -9,4 +9,12 @@ public class Shared {
            throw new RuntimeException(e);
        }
    }
+   public synchronized void ncmn(){
+       System.out.println("inside non-common");
+       try {
+           Thread.sleep(10000);
+       } catch (InterruptedException e) {
+           throw new RuntimeException(e);
+       }
+   }
 }

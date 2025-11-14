@@ -9,10 +9,10 @@ public class Client {
         });
         Thread thread2=new Thread(()->{
             System.out.println("called by thread 2");
-            shared.cmn();
+            shared.ncmn();
         });
         thread1.start();
         thread2.start();
-        System.out.printf("main ended");
+        System.out.println("main ended");
     }
 }
